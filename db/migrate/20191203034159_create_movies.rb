@@ -5,7 +5,7 @@ class CreateMovies < ActiveRecord::Migration[5.2]
       x.integer :release_date
       x.string :director
       x.string :boolean
-      x.
+      x.boolean :
     end
   end
 end
