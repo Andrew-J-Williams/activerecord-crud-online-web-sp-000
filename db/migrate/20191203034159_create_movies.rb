@@ -3,7 +3,7 @@ class CreateMovies < ActiveRecord::Migration[5.2]
     create_table :movies do |x|
       x.string :title
       x.integer :release_date
-      x.string 
+      x.string :director
     end
   end
 end
